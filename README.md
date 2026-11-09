@@ -1,5 +1,7 @@
 # Distributed Job Queue
 
+![CI](https://github.com/LutendoLumina/distributed-job-queue/actions/workflows/ci.yml/badge.svg)
+
 A background job processing system built with Java and Spring Boot.
 Clients submit jobs through a REST API. Workers pick them up, run them, and retry failures automatically.
 Multiple workers can run at the same time without ever running the same job twice.
